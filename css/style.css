@@ -1,0 +1,280 @@
+:root {
+  --SimplerLimeGreen: #7dce94;
+  --ScuffedDarkGrey: #3d3d3f;
+  --VanillaGrey: #f6f5f3;
+  --Whitish: #f9f8fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body, html {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+/* body {
+  padding-top: 70px;
+} */
+
+h2 {
+  color: var(--SimplerLimeGreen);
+}
+
+hr {
+  width: 20%;
+  border-bottom: 20px solid var(--SimplerLimeGreen);
+  border-radius: 15px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+#myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.6;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--ScuffedDarkGrey);
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 250px;
+  text-align: center;
+}
+
+.bg__logo {
+  width: 30%;
+}
+
+.bg__hero  {
+  background: url('../img/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  color: var(--ScuffedDarkGrey);
+  font-weight: bolder;
+}
+
+.navbar {
+  background: transparent !important;
+
+}
+
+.navbar a {
+  color: var(--ScuffedDarkGrey);
+}
+
+.SecondSection {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#about-img {
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border: 3px solid var(--SimplerLimeGreen);
+}
+
+.ThirdSection {
+  background-color: #f6f5f3;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.ThirdSection h3 {
+  color: var(--SimplerLimeGreen);
+}
+
+.ThirdSection p {
+  color: var(--ScuffedDarkGrey);
+}
+
+.FourthSection {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.Activities {
+  background-color: #f6f5f3;
+}
+
+.activity__post {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.no--box {
+  padding: 0;
+  margin: 0;
+}
+
+
+.hover--effect {
+  margin-bottom: 10px;
+  transition: all 200ms;
+}
+
+.hover--effect:hover{
+  background: var(--SimplerLimeGreen);
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  color: var(--VanillaGrey);
+}
+
+.activity__showcase {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+  transition: all 500ms;
+}
+
+.activity__showcase:hover {
+  
+  width: 305px;
+  height: 285px;
+  object-fit: cover;
+}
+
+.img__profiles {
+  width: 240px;
+  height: 280px;
+  object-fit: cover;
+  transition: all 500ms;
+}
+
+.img__profiles:hover {
+  
+  width: 245px;
+  height: 285px;
+  object-fit: cover;
+}
+
+.FifthSection {
+  margin-top: 30px;
+  
+}
+
+.SixthSection{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: var(--VanillaGrey);
+}
+
+.SixthSection__content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.SeventhSection{
+  margin-top: 30px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 700px;
+  
+}
+
+/* .SeventhSectionHead {
+  background: var(--VanillaGrey);
+} */
+
+.scrolled {
+  background: var(--ScuffedDarkGrey) !important;
+  transition: all 500ms;
+}
+
+.img-grow:hover {
+  width: 110% !important;
+}
+
+.no-li {
+  list-style-type: none;
+}
+
+
+
+.message--button {
+  margin-top: 7px;
+  width: 100%;
+}
+
+.container a {
+  color: var(--SimplerLimeGreen);
+  text-decoration: none;
+}
+
+.container h1 {
+  color: var(--SimplerLimeGreen);
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+
+.blog-button {
+  width: 200px;
+  text-align: center;
+}
+
+.footer {
+  background: var(--ScuffedDarkGrey);
+  color: var(--VanillaGrey);
+  padding: 30px;
+  margin-top: 40px;
+}
+
+/*.footer__container {*/
+/*  max-width: 1000px;*/
+/*  margin-right: -20px;*/
+/*}*/
+
+.footer__img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.post {
+  padding: 30px;
+  text-align: center;
+}
+
+.post p {
+  text-align: justify;
+  margin: 20px;
+}
+
+.posts {
+  margin-top: 70px;
+  border: 1px solid var(--SimplerLimeGreen);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  background: var(--ScuffedDarkGrey);
+  color: var(--Whitish);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.date {
+  color: var(--SimplerLimeGreen);
+}
