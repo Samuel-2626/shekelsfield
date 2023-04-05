@@ -8,7 +8,7 @@
 <br>
   <h3>Error</h3>
   <p>
-  Sorry message could not send, try again or send an email to 'shekelsfieldnig@gmail.com'.
+  Page not found!
   </p>
   
   <br>
