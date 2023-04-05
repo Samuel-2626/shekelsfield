@@ -339,6 +339,7 @@ function SanitizeString($var)
                 <textarea class="form-control" name="message" required></textarea>
 
             </div>
+            <br>
 
             <input type="submit" class="btn btn-outline-success message--button" name="submit" value="Send Message">
         </form>
