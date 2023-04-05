@@ -9,7 +9,7 @@
      <br>
   <h4>Samuel Torimiro</h4>
   <hr>
-  <img src="img/timi.jpg" alt="Samuel Profile Picture" class="img__profiles img-thumbnail">
+  <img src="img/samuel-torimiro.jpg" alt="Samuel Profile Picture" class="img__profiles img-thumbnail">
     <br>
   <strong>Web Developer </strong>
  <br>

@@ -9,7 +9,7 @@
      <br>
   <h4>Prof. Dixon Olutade Torimiro</h4>
   <hr>
-  <img src="img/tade.jpg" alt="Tade Profile Picture" class="img__profiles img-thumbnail">
+  <img src="img/professor-dixon-torimiro.jpg" alt="Tade Profile Picture" class="img__profiles img-thumbnail">
     <br>
   <strong>Executive Chairman </strong>
   <br>

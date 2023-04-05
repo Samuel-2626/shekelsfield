@@ -19,7 +19,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 
 
     <meta property="og:url" content="https://shekelsfieldnig.com/" />
@@ -39,7 +39,7 @@
     <div class="bg">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar-example2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./"><img src="img/logo.jpg" alt="Shekelsfield Logo" class="bg__logo"></a>
+                <a class="navbar-brand" href="./"><img src="img/logo.jpg" alt="Shekelsfield Logo" class="bg__logo img-thumbnail"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -64,7 +64,7 @@
                     </ul>
                     <form class="d-flex">
                         <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-success" type="submit" disabled>Search</button>
                     </form>
                 </div>
             </div>

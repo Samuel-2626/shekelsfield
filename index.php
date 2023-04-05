@@ -12,14 +12,14 @@ if(isset($_POST['submit'])) {
 
     $headers = 'From: ' . $name . ' Email ' . $email . "\r\n" . 
     'Reply-To: ' . $email . "\r\n" . 
-    'X-Mailer: ' . 'Your Personal Website';
+    'X-Mailer: ' . 'Shekelsfield Nigeria Limited website';
 
     $ml = mail($to, $subject, $message, $headers);
     if (!$ml){
         header('Location: ./contact-failure.php', TRUE, 301);
         exit;
     }else {
-        header('Location: contact-success.php');
+        header('Location: ./contact-success.php', TRUE, 301);
         exit;
     }
 }
@@ -51,8 +51,8 @@ function SanitizeString($var)
     <div class="container">
         <h2>Who We Are</h2>
         <hr>
-        <div class="row">
-            <div class="col-sm-7">
+        <div class="row tex-center">
+            <div class="col-lg-6">
                 <p>
                     <b>Shekelsfield Nigeria Limited</b> was incorporated in Nigeria on the 22nd December 2017 with the main aim of exploring farming enterprises as a platform for generating funds towards servicing other areas of its interest.
                 </p>
@@ -64,8 +64,8 @@ function SanitizeString($var)
                     <li>strategically build young people entrepreneurial, educational, literary and sporting capacities through rural-based institutions.</li>
                 </ul>
             </div>
-            <div class="col-sm-5">
-                <img src="img/about.jpg" alt="About Us Image" class="img-fluid img-grow" id="about-img">
+            <div class="col-lg-6">
+                <img src="img/about-us.jpg" alt="About Us Image" class="img-fluid img-thumbnail">
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@ function SanitizeString($var)
         <h2>What We Do</h2>
         <hr>
         <div class="row">
-            <div class="col-md-4 hover--effect">
+            <div class="col-md-4 col-sm-6 hover--effect">
                 <p class="text-center no--box">
                     <i class="fa fa-fish fa-5x" style="color: #7dce94;"></i>
                 </p>
@@ -121,7 +121,7 @@ function SanitizeString($var)
                     We are involved in catfish and tilapia production from fingerlings through juveniles to table size. We also kill, process and package for marketing.
                 </p>
             </div>
-            <div class="col-md-4 hover--effect">
+            <div class="col-md-4 col-sm-6 hover--effect">
                 <p class="text-center no--box ">
                     <i class="fa fa-piggy-bank fa-5x" style="color: #7dce94;"></i>
                 </p>
@@ -130,7 +130,7 @@ function SanitizeString($var)
                     We rare and sell live weaners, boars and sows. We also dress pigs into pork for sales in kilo.
                 </p>
             </div>
-            <div class="col-md-4 hover--effect">
+            <div class="col-md-4 col-sm-6 hover--effect">
                 <p class="text-center no--box ">
                     <i class="fab fa-hive fa-5x" style="color: #7dce94;"></i>
                 </p>
@@ -139,7 +139,7 @@ function SanitizeString($var)
                     We produce and sell pure honey and wax. We also assits in establishing apiary and construct bee hives.
                 </p>
             </div>
-            <div class="col-md-4 hover--effect">
+            <div class="col-md-4 col-sm-6 hover--effect">
                 <p class="text-center no--box ">
                     <i class="fa fa-tractor fa-5x" style="color: #7dce94;"></i>
                 </p>
@@ -148,7 +148,7 @@ function SanitizeString($var)
                     We hire out tractor with different implements for field operations such as ploughing, harrowing and ridging.
                 </p>
             </div>
-            <div class="col-md-4 hover--effect">
+            <div class="col-md-4 col-sm-6 hover--effect">
                 <p class="text-center no--box ">
                     <i class="fa fa-bacon fa-5x" style="color: #7dce94;"></i>
                 </p>
@@ -157,7 +157,7 @@ function SanitizeString($var)
                     We rare and supply chicken, turkey, sheep, goat and cattle.
                 </p>
             </div>
-            <div class="col-md-4 hover--effect">
+            <div class="col-md-4 col-sm-6 hover--effect">
                 <p class="text-center no--box ">
                     <i class="fa fa-crop fa-5x" style="color: #7dce94;"></i>
                 </p>
@@ -180,40 +180,40 @@ function SanitizeString($var)
 
         <div class="row text-center text-lg-left">
 
-            <div class="col-md-3 mb-3">
+            <div class="col-md-4 col-sm-6 mb-3">
 
-                <img class="activity__showcase img-thumbnail" src="img/farm.jpg" alt="Our Farm">
-
-            </div>
-            <div class="col-md-3 mb-3">
-
-                <img class="activity__showcase img-thumbnail" src="img/fish-1.jpg" alt="Fish Sell 1">
+                <img class="activity__showcase img-thumbnail" src="img/our-farm-activities-1.jpg" alt="Our Farm Activities 1">
 
             </div>
-            <div class="col-md-3 mb-3">
+            <div class="col-md-4 col-sm-6 mb-3">
 
-                <img class="activity__showcase img-thumbnail" src="img/fish-2.jpg" alt="Fish Sell 2">
-
-            </div>
-            <div class="col-md-3 mb-3">
-
-                <img class="activity__showcase img-thumbnail" src="img/pig.jpg" alt="Pig">
+                <img class="activity__showcase img-thumbnail" src="img/our-farm-activities-2.jpg" alt="Our Farm Activities 2">
 
             </div>
-            <div class="col-md-3 mb-3">
+            <div class="col-md-4 col-sm-6 mb-3">
 
-                <img class="activity__showcase img-thumbnail" src="img/sefiu.jpg" alt="Sefiu">
-
-            </div>
-            <div class="col-md-3 mb-3">
-
-                <img class="activity__showcase img-thumbnail" src="img/about.jpg" alt="About Us">
+                <img class="activity__showcase img-thumbnail" src="img/our-farm-activities-3.jpg" alt="Our Farm Activities 3">
 
             </div>
+            <div class="col-md-4 col-sm-6 mb-3">
 
-            <div class="col-md-3 mb-3">
+                <img class="activity__showcase img-thumbnail" src="img/our-farm-activities-4.jpg" alt="Our Farm Activities 4">
 
-                <img class="activity__showcase img-thumbnail" src="img/apiary.jpg" alt="Apairy">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-3">
+
+                <img class="activity__showcase img-thumbnail" src="img/our-farm-activities-5.jpg" alt="Our Farm Activities 5">
+
+            </div>
+            <div class="col-md-4 col-sm-6 mb-3">
+
+                <img class="activity__showcase img-thumbnail" src="img/about-us.jpg" alt="Our Farm Activities 6">
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-3">
+
+                <img class="activity__showcase img-thumbnail" src="img/our-farm-activities-7.jpg" alt="Our Farm Activities 7">
 
             </div>
 
@@ -230,48 +230,48 @@ function SanitizeString($var)
     <div class="container">
         <h2>Meet The Team</h2>
         <hr>
-        <div class="row">
-            <div class="col-md-4 mb-3">
-                <img src="img/tade.jpg" alt="Tade Profile Picture" class="img__profiles img-thumbnail">
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 mb-3">
+                <img src="img/professor-dixon-torimiro.jpg" alt="Tade Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
                 <strong>Prof. Dixon Olutade Torimiro <a href="https://www.linkedin.com/in/dixon-olutade-torimiro-8a3b1059/?originalSubdomain=ng" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a> </strong>
                 <p>Executive Chairman </p>
                 <a href="professor-dixon-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
             </div>
-            <div class="col-md-4 mb-3">
-                <img src="img/moji.jpg" alt="Helen Profile Picture" class="img__profiles img-thumbnail">
+            <div class="col-md-4 col-sm-6 mb-3">
+                <img src="img/mojisola-helen-torimiro.jpg" alt="Helen Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
                 <strong>Mojisola Helen Torimiro </strong>
                 <p>Non-Executive Vice-Chairperson</p>
                 <a href="mojisola-helen-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
-            <div class="col-md-4 mb-3">
-                <img src="img/ibeji.jpg" alt="Lawunmi Profile Picture" class="img__profiles img-thumbnail">
+            <div class="col-md-4 col-sm-6 mb-3">
+                <img src="img/engineer-wunmi-oloyede.jpg" alt="Lawunmi Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
                 <strong>Engr. Wunmi Oloyede</strong>
                 <p>Chief Operation Officer</p>
                 <a href="engineer-wunmi-oloyede.php"> <button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
-            <div class="col-md-4 mb-3">
-                <img src="img/bayo.jpg" alt="Bayo Profile Picture" class="img__profiles img-thumbnail">
+            <div class="col-md-4 col-sm-6 mb-3">
+                <img src="img/samuel-adebayo-oloyede.jpg" alt="Bayo Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
                 <strong>Samuel Adebayo Oloyede <a href="https://www.linkedin.com/in/adebayo-oloyede-m-sc-fca-14755a26/" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
                 <p>Chief Executive Officer</p>
                 <a href="samuel-adebayo-oloyede.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
-            <div class="col-md-4 mb-3">
-                <img src="img/ayo.jpg" alt="Ayoola Profile Picture" class="img__profiles img-thumbnail">
+            <div class="col-md-4 col-sm-6 mb-3">
+                <img src="img/hannah-ayoola-torimiro.jpg" alt="Ayoola Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
                 <strong>Hannah Ayoola Torimiro <a href="https://www.linkedin.com/in/hannah-ayoola-torimiro-94816878/" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
                 <p>Director of farm Operations</p>
                 <a href="hannah-ayoola-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
-            <div class="col-md-4 mb-3">
-                <img src="img/timi.jpg" alt="Timilehin Profile Picture" class="img__profiles img-thumbnail">
+            <div class="col-md-4 col-sm-6 mb-3">
+                <img src="img/samuel-torimiro.jpg" alt="Timilehin Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
                 <strong>Samuel Torimiro <a href="https://www.linkedin.com/in/samuel-torimiro-6b97a71a0/" target="blankfa"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
                 <p>Web Developer</p>

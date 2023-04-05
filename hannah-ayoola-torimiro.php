@@ -9,7 +9,7 @@
      <br>
   <h4>Hannah Ayoola Torimiro</h4>
   <hr>
-  <img src="img/ayo.jpg" alt="Hannah Profile Picture" class="img__profiles img-thumbnail">
+  <img src="img/hannah-ayoola-torimiro.jpg" alt="Hannah Profile Picture" class="img__profiles img-thumbnail">
     <br>
   <strong>Director of farm Operations </strong>
   <br>

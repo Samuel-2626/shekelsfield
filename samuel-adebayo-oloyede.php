@@ -9,7 +9,7 @@
      <br>
   <h4>Samuel Adebayo Oloyede</h4>
   <hr>
-  <img src="img/bayo.jpg" alt="Bayo Profile Picture" class="img__profiles img-thumbnail">
+  <img src="img/samuel-adebayo-oloyede.jpg" alt="Bayo Profile Picture" class="img__profiles img-thumbnail">
     <br>
   <strong>Chief Executive Officer </strong>
   <br>

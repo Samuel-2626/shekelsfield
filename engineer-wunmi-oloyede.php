@@ -9,7 +9,7 @@
      <br>
   <h4>Engr. Wunmi Oloyede</h4>
   <hr>
-  <img src="img/ibeji.jpg" alt="Lawunmi Profile Picture" class="img__profiles img-thumbnail">
+  <img src="img/engineer-wunmi-oloyede.jpg" alt="Lawunmi Profile Picture" class="img__profiles img-thumbnail">
     <br>
   <strong>Chief Operation Officer </strong>
 <br>

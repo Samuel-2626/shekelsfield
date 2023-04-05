@@ -9,7 +9,7 @@
      <br>
   <h4>Mojisola Helen Torimiro</h4>
   <hr>
-  <img src="img/moji.jpg" alt="Mpji Profile Picture" class="img__profiles img-thumbnail">
+  <img src="img/mojisola-helen-torimiro.jpg" alt="Mpji Profile Picture" class="img__profiles img-thumbnail">
     <br>
   <strong>Non-Executive Vice-Chairperson </strong>
  <br>

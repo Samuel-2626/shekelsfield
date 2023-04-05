@@ -22,7 +22,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 
     <meta property="og:url" content="https://shekelsfieldnig.com/" />
@@ -52,19 +52,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="../#about">About Us</a>
+                            <a class="nav-link" href="..#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../#services">Our Services</a>
+                            <a class="nav-link" href="..#services">Our Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../#team">Meet the Team</a>
+                            <a class="nav-link" href="..#team">Meet the Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../#blog">Blog</a>
+                            <a class="nav-link" href="..#blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../#contact">Contact Us</a>
+                            <a class="nav-link" href="..#contact">Contact Us</a>
                         </li>
 
                     </ul>
@@ -96,6 +96,7 @@
       <div>
 
       <br>
+      <hr>
 
       <h2>Introduction</h2>
       <p>
@@ -105,7 +106,9 @@
       sustainability.
       </p>
 
-      <img src="../img/blog-1.jpg" alt="" class="img-fluid img-thumbnail">
+      <img src="../img/blog-post-1.jpg" alt="blog-post-1" class="img-fluid img-thumbnail">
+      <br>
+      <br>
 
       <p>
       IFS is of great benefits to the farmers through the proper processing 
@@ -114,7 +117,9 @@
       production. It also guarantees an all year-round income generation for the farmers. 
       </p>
 
-      <img src="../img/blog-2.jpg" alt="" class="img-fluid img-thumbnail">
+      <img src="../img/blog-post-2.jpg" alt="blog-post-2" class="img-fluid img-thumbnail">
+      <br>
+      <br>
 
       <p>
       In Nigeria, going into farming in the first instance, is a sure 
@@ -128,7 +133,9 @@
       poverty alleviation and food security. 
       </p>
 
-      <img src="../img/blog-3.jpg" alt="" class="img-fluid img-thumbnail">
+      <img src="../img/blog-post-3.jpg" alt="blog-post-3" class="img-fluid img-thumbnail">
+      <br>
+      <br>
 
       <p>
       This piece is therefore prepared to guide anyone 
@@ -140,7 +147,9 @@
       and marketing potentials.
       </p>
 
-      <img src="../img/blog-4.jpg" alt="" class="img-fluid img-thumbnail">
+      <img src="../img/blog-post-4.jpg" alt="blog-post-4" class="img-fluid img-thumbnail">
+      <br>
+      <br>
 
       <p>
       Let us now look into the various steps to take in establishing a 
@@ -163,7 +172,9 @@
       the local extension office near your proposed location of operation for proper guidance. 
       </p>
 
-      <img src="../img/blog-5.jpg" alt="" class="img-fluid img-thumbnail">
+      <img src="../img/blog-post-5.jpg" alt="blog-post-5" class="img-fluid img-thumbnail">
+      <br>
+      <br>
 
       <p>
       Once you have decided on what to produce on your farm, the next decision 
@@ -220,7 +231,10 @@
       and from the location? 
       </p>
 
-      <img src="../img/blog-6.jpg" alt="" class="img-fluid img-thumbnail">
+      <img src="../img/blog-post-6.jpg" alt="blog-post-6" class="img-fluid img-thumbnail">
+      <br>
+      <br>
+
 
       <p>
       <strong>Neighbors:</strong> These can be a great resource, or a great hindrance, 

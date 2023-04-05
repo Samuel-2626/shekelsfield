@@ -215,7 +215,7 @@ hr {
   width: 100%;
 }
 
-.container a {
+.container a, .container-fluid a {
   color: var(--SimplerLimeGreen);
   text-decoration: none;
 }
@@ -224,7 +224,7 @@ hr {
   color: var(--SimplerLimeGreen);
 }
 
-.container a:hover {
+.container a:hover, .container-fluid a:hover {
   text-decoration: underline;
 }
 
@@ -251,7 +251,7 @@ hr {
   margin-bottom: auto;
 }
 
-.post {
+/* .post {
   padding: 30px;
   text-align: center;
 }
@@ -259,7 +259,7 @@ hr {
 .post p {
   text-align: justify;
   margin: 20px;
-}
+} */
 
 .posts {
   margin-top: 70px;
@@ -272,6 +272,7 @@ hr {
   background: var(--ScuffedDarkGrey);
   color: var(--Whitish);
   padding: 3px;
+  margin: 3px;
   border-radius: 5px;
 }
 
