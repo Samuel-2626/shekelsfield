@@ -16,11 +16,9 @@ if(isset($_POST['submit'])) {
 
     $ml = mail($to, $subject, $message, $headers);
     if (!$ml){
-        header('Location: ./contact-failure.php', TRUE, 301);
-        exit;
+        header('Location: ./contact-failure.php');
     }else {
-        header('Location: ./contact-success.php', TRUE, 301);
-        exit;
+        header('Location: ./contact-success.php');
     }
 }
 
@@ -47,7 +45,7 @@ function SanitizeString($var)
 
 <!--  Second Section -->
 
-<div class="SecondSection" data-target="#navbar-example2" data-spy="scroll" id="about">
+<div class="SecondSection" data-target="#navbar-example2" data-spy="scroll" id="about-us">
     <div class="container">
         <h2>Who We Are</h2>
         <hr>
@@ -226,7 +224,7 @@ function SanitizeString($var)
 </div>
 
 <!-- Fifth Section -->
-<div class="FifthSection" data-target="#navbar-example2" data-spy="scroll" id="team">
+<div class="FifthSection" data-target="#navbar-example2" data-spy="scroll" id="meet-the-team">
     <div class="container">
         <h2>Meet The Team</h2>
         <hr>
@@ -319,7 +317,7 @@ function SanitizeString($var)
 
 
 <!-- Seventh Section -->
-<div class="SeventhSection" data-target="#navbar-example2" data-spy="scroll" id="contact">
+<div class="SeventhSection" data-target="#navbar-example2" data-spy="scroll" id="contact-us">
     <div class="container SeventhSection">
         <h2>Contact Us</h2>
         <hr>
