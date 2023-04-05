@@ -1,5 +1,39 @@
 <?php require_once('templates/header.php') ?>
 
+<?php
+
+if(isset($_POST['submit'])) {
+    $name = SanitizeString($_POST["name"]);
+    $email = SanitizeString(($_POST["email"]));
+    $message = SanitizeString(($_POST["message"]));
+
+    $to = "efosonaname@gmail.com";
+    $subject = "This is an email from Shekelsfield Nigeria Limited website";
+
+    $headers = 'From: ' . $name . ' Email ' . $email . "\r\n" . 
+    'Reply-To: ' . $email . "\r\n" . 
+    'X-Mailer: ' . 'Your Personal Website';
+
+    $ml = mail($to, $subject, $message, $headers);
+    if (!$ml){
+        header('Location: ./contact-failure.php', TRUE, 301);
+        exit;
+    }else {
+        header('Location: contact-success.php');
+        exit;
+    }
+}
+
+
+function SanitizeString($var)
+    {
+        $var = strip_tags($var);
+        $var = htmlentities($var);
+        return stripslashes($var);
+    }
+
+?>
+
 
 <div>
     <video autoplay muted loop id="myVideo">
@@ -202,14 +236,14 @@
                 <br><br>
                 <strong>Prof. Dixon Olutade Torimiro <a href="https://www.linkedin.com/in/dixon-olutade-torimiro-8a3b1059/?originalSubdomain=ng" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a> </strong>
                 <p>Executive Chairman </p>
-                <a href="dixon.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
+                <a href="professor-dixon-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
             </div>
             <div class="col-md-4 mb-3">
                 <img src="img/moji.jpg" alt="Helen Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
                 <strong>Mojisola Helen Torimiro </strong>
                 <p>Non-Executive Vice-Chairperson</p>
-                <a href="moji.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
+                <a href="mojisola-helen-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
             <div class="col-md-4 mb-3">
@@ -217,7 +251,7 @@
                 <br><br>
                 <strong>Engr. Wunmi Oloyede</strong>
                 <p>Chief Operation Officer</p>
-                <a href="lawunmi.php"> <button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
+                <a href="engineer-wunmi-oloyede.php"> <button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
             <div class="col-md-4 mb-3">
@@ -225,7 +259,7 @@
                 <br><br>
                 <strong>Samuel Adebayo Oloyede <a href="https://www.linkedin.com/in/adebayo-oloyede-m-sc-fca-14755a26/" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
                 <p>Chief Executive Officer</p>
-                <a href="bayo.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
+                <a href="samuel-adebayo-oloyede.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
             <div class="col-md-4 mb-3">
@@ -233,7 +267,7 @@
                 <br><br>
                 <strong>Hannah Ayoola Torimiro <a href="https://www.linkedin.com/in/hannah-ayoola-torimiro-94816878/" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
                 <p>Director of farm Operations</p>
-                <a href="hannah.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
+                <a href="hannah-ayoola-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
             <div class="col-md-4 mb-3">
@@ -241,7 +275,7 @@
                 <br><br>
                 <strong>Samuel Torimiro <a href="https://www.linkedin.com/in/samuel-torimiro-6b97a71a0/" target="blankfa"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
                 <p>Web Developer</p>
-                <a href="samuel.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
+                <a href="samuel-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
         </div>
@@ -292,21 +326,21 @@
         <form action="" method="post">
 
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" aria-describedby="emailHelp">
+                <label class="form-label">Email address</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp" name="email" required>
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Full Name</label>
-                <input type="text" class="form-control">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" name="name" required>
             </div>
 
-            <label for="floatingTextarea">Message</label>
+            <label class="form-label">Message</label>
             <div class="form-floating">
-                <textarea class="form-control"></textarea>
+                <textarea class="form-control" name="message" required></textarea>
 
             </div>
 
-            <button type="submit" class="btn btn-outline-success message--button">Send Message</button>
+            <input type="submit" class="btn btn-outline-success message--button" name="submit" value="Send Message">
         </form>
 
     </div>

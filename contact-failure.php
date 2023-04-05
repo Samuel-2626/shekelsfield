@@ -6,9 +6,9 @@
 <br>
 <br>
 <br>
-  <h3>Thank's for reaching out</h3>
+  <h3>Error</h3>
   <p>
-     Your Message has been sent successfully
+  Sorry message could not send, try again or send an email to 'shekelsfieldnig@gmail.com'
   </p>
   
   <br>
