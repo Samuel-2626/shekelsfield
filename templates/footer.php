@@ -25,7 +25,7 @@
 
     <div class="footer-copyright">
         <div class="text-center">
-          <p>&copy; Shekelsfield Nigeria Limited <?php echo date('Y'); ?> </p>
+          <p>Copyright &copy; <?php echo date('Y'); ?> Shekelsfield Nigeria Limited </p>
           </div>
       </div>
     </div>
