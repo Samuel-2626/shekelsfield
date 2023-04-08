@@ -62,7 +62,7 @@ function SanitizeString($var)
                     <li>strategically build young people entrepreneurial, educational, literary and sporting capacities through rural-based institutions.</li>
                 </ul>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 text-center">
                 <img src="img/about-us.jpg" alt="About Us Image" class="img-fluid img-thumbnail">
             </div>
         </div>
