@@ -19,7 +19,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/sh_style.css">
 
 
     <meta property="og:url" content="https://shekelsfieldnig.com/" />
@@ -39,7 +39,7 @@
     <div class="bg">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar-example2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="../img/logo.jpg" alt="Shekelsfield Logo" class="bg__logo"></a>
+                <a class="navbar-brand" href="../"><img src="../img/logo.jpg" alt="Shekelsfield Logo" class="bg__logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -74,6 +74,7 @@
 
   <br>
   <br>
+  <main>
   <div class="container">
   <div class="posts">
       <h1><a href="./a-guide-to-etablishment-of-an-integrated-farming-system-in-nigeria.php">A Guide to Establishment of an Integrated Farming System in Nigeria</a></h1>
@@ -91,6 +92,8 @@
       <div class="date"><i class="fa fa-calendar fa-1x" style="color: #7dce94;"></i>&nbsp;&nbsp; Aug 9, 2021</div>
     </div>
   </div>
+  </main>
+  
    
  
 
@@ -109,10 +112,8 @@
                     Isomu-Orunwa Road,<br>
                     Isomu Ijebu, Ogun State,<br>
                     Nigeria. <br>
-                    <br>
-                    <i class="fa fa-mail-bulk fa-1x" style="color: #7dce94;"></i>&nbsp;<span><a href="mailto:shekelsfieldnig@gmail.com">shekelsfieldnig@gmail.com</a></span>
-                    <br>
-                    <i class="fa fa-phone fa-1x" style="color: #7dce94;"></i>&nbsp;<span><a href="tel:+234 (0)8033953651">+ 234 (0)8033953651</a></span>
+                   
+           
             </div>
             <div class="col-md-4 footer__img">
                 <img src="../img/logo.jpg" alt="Shekelsfield's Logo" class="img-fluid">
