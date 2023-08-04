@@ -23,9 +23,9 @@
         </div>
     </div>
 </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright p-2">
         <div class="text-center">
-          <p>Copyright &copy; <?php echo date('Y'); ?> Shekelsfield Nigeria Limited </p>
+          <span>Copyright &copy; <?php echo date('Y'); ?> Shekelsfield Nigeria Limited </span>
           </div>
       </div>
     

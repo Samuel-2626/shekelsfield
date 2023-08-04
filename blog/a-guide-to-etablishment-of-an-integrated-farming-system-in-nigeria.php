@@ -45,7 +45,7 @@
     <div class="bg">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar-example2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../"><img src="../img/logo.jpg" alt="Shekelsfield Logo" class="bg__logo"></a>
+                <a class="navbar-brand" href="/"><img src="../img/logo.jpg" alt="Shekelsfield Logo" class="bg__logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -298,11 +298,6 @@
   </div>
 
   
-
-      
-       
- 
-
 <!-- Footer -->
 <div class="footer">
     <div class="container-fluid footer__container mt-4">
@@ -328,12 +323,14 @@
         </div>
     </div>
 </div>
-
-    <div class="footer-copyright">
+    <div class="footer-copyright p-2">
         <div class="text-center">
-          <p>Copyright &copy; <?php echo date('Y'); ?> Shekelsfield Nigeria Limited </p>
+          <span>Copyright &copy; <?php echo date('Y'); ?> Shekelsfield Nigeria Limited </span>
           </div>
       </div>
+    
+
+
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 
