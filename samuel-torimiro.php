@@ -11,7 +11,7 @@
   <hr>
   <img src="img/samuel-torimiro.jpg" alt="Samuel Profile Picture" class="img__profiles img-thumbnail">
     <br>
-  <strong>Web Developer </strong>
+  <strong>Software Engineer</strong>
  <br>
   <br>
   <p>
@@ -21,7 +21,7 @@ Samuel is enthusiastic about software engineering, teaching, and entrepreneurshi
   <h4>Contact</h4>
   <hr>
   <a href="https://github.com/Samuel-2626" target="blank"><i class="fab fa-github fa-2x m-2" style="color: #7dce94;"></i></a>
-   <a href="https://www.linkedin.com/in/samuel-torimiro-6b97a71a0/" target="blankfa"><i class="fab fa-linkedin fa-2x m-2" style="color: #7dce94;"></i></a>
+   <a href="https://www.linkedin.com/in/samuel-torimiro" target="blankfa"><i class="fab fa-linkedin fa-2x m-2" style="color: #7dce94;"></i></a>
 </div>
 
 

@@ -19,7 +19,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main_style.css">
 
 
     <meta property="og:url" content="https://shekelsfieldnig.com/" />

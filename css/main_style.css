@@ -176,14 +176,14 @@ hr {
   padding-bottom: 40px;
 }
 
-.SeventhSection{
+/* .SeventhSection{
   margin-top: 30px;
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
   max-width: 700px;
   
-}
+} */
 
 .scrolled {
   background: var(--ScuffedDarkGrey) !important;
@@ -251,4 +251,10 @@ hr {
 
 .date {
   color: var(--SimplerLimeGreen);
+}
+
+.footer-copyright {
+  background-color: var(--ScuffedDarkGrey);
+  opacity: 0.9;
+  color: var(--Whitish);
 }

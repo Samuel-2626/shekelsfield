@@ -20,7 +20,7 @@
   <h4>Contact</h4>
   <hr>
   <a href="http://professortorimiro.info/" target="blank"><i class="fab fa-internet-explorer fa-2x m-2" style="color: #7dce94;"></i></a>
-  <a href="https://www.linkedin.com/in/ACoAAAxx6fsBZG-meUGQSaV78XwIiMR2d83x7ok?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BZC8dIeh3QL6Fmo3WqAi3ZA%3D%3D" target="blank"><i class="fab fa-linkedin fa-2x m-2" style="color: #7dce94;"></i></a>
+  <a href="https://www.linkedin.com/in/dixon-olutade-torimiro-8a3b1059/" target="blank"><i class="fab fa-linkedin fa-2x m-2" style="color: #7dce94;"></i></a>
   <a href="https://www.youtube.com/channel/UCLRZxHickl4jY8MYqPM5Mpg" target="blank"><i class="fab fa-youtube fa-2x m-2" style="color: #7dce94;"></i></a>
 </div>
 

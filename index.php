@@ -175,6 +175,7 @@ function SanitizeString($var)
     <div class="container activity__post">
         <h2>Our Farm Activities</h2>
         <hr>
+        <br>
 
         <div class="row text-center text-lg-left">
 
@@ -228,11 +229,12 @@ function SanitizeString($var)
     <div class="container">
         <h2>Meet The Team</h2>
         <hr>
+        <br>
         <div class="row text-center">
             <div class="col-md-4 col-sm-6 mb-3">
                 <img src="img/professor-dixon-torimiro.jpg" alt="Tade Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
-                <strong>Prof. Dixon Olutade Torimiro <a href="https://www.linkedin.com/in/dixon-olutade-torimiro-8a3b1059/?originalSubdomain=ng" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a> </strong>
+                <strong>Prof. Dixon Olutade Torimiro <a href="https://www.linkedin.com/in/dixon-olutade-torimiro-8a3b1059/" target="blank"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a> </strong>
                 <p>Executive Chairman </p>
                 <a href="professor-dixon-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
             </div>
@@ -271,8 +273,8 @@ function SanitizeString($var)
             <div class="col-md-4 col-sm-6 mb-3">
                 <img src="img/samuel-torimiro.jpg" alt="Timilehin Profile Picture" class="img__profiles img-thumbnail">
                 <br><br>
-                <strong>Samuel Torimiro <a href="https://www.linkedin.com/in/samuel-torimiro-6b97a71a0/" target="blankfa"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
-                <p>Web Developer</p>
+                <strong>Samuel Torimiro <a href="https://www.linkedin.com/in/samuel-torimiro" target="blankfa"><i class="fab fa-linkedin fa-1x" style="color: #7dce94;"></i></a></strong>
+                <p>Software Engineer</p>
                 <a href="samuel-torimiro.php"><button class="btn btn-outline-success" type="submit">View Full Profile</button></a>
 
             </div>
@@ -318,21 +320,22 @@ function SanitizeString($var)
 
 <!-- Seventh Section -->
 <div class="SeventhSection" data-target="#navbar-example2" data-spy="scroll" id="contact-us">
-    <div class="container SeventhSection">
+    <div class="container">
         <h2>Contact Us</h2>
         <hr>
+        <br>
         <form action="" method="post">
 
             <div class="mb-3">
-                <label class="form-label">Email address</label>
+                <label class="form-label">Email address:</label>
                 <input type="email" class="form-control" aria-describedby="emailHelp" name="email" required>
             </div>
             <div class="mb-3">
-                <label class="form-label">Full Name</label>
+                <label class="form-label">Full Name:</label>
                 <input type="text" class="form-control" name="name" required>
             </div>
 
-            <label class="form-label">Message</label>
+            <label class="form-label">Message:</label>
             <div class="form-floating">
                 <textarea class="form-control" name="message" required></textarea>
 

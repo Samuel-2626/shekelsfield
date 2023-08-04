@@ -12,23 +12,23 @@
                     Isomu-Orunwa Road,<br>
                     Isomu Ijebu, Ogun State,<br>
                     Nigeria. <br>
-                    <br>
+                    <!-- <br>
                     <i class="fa fa-mail-bulk fa-1x" style="color: #7dce94;"></i>&nbsp;<span><a href="mailto:shekelsfieldnig@gmail.com">shekelsfieldnig@gmail.com</a></span>
                     <br>
-                    <i class="fa fa-phone fa-1x" style="color: #7dce94;"></i>&nbsp;<span><a href="tel:+234 (0)8033953651">+ 234 (0)8149110574</a></span>
+                    <i class="fa fa-phone fa-1x" style="color: #7dce94;"></i>&nbsp;<span><a href="tel:+234 (0)8033953651">+ 234 (0)8149110574</a></span> -->
             </div>
             <div class="col-md-4 footer__img pb-4">
                 <img src="img/logo.jpg" alt="Shekelsfield's Logo" class="img-fluid img-thumbnail">
             </div>
         </div>
     </div>
-
+</div>
     <div class="footer-copyright">
         <div class="text-center">
           <p>Copyright &copy; <?php echo date('Y'); ?> Shekelsfield Nigeria Limited </p>
           </div>
       </div>
-    </div>
+    
 
 
 
