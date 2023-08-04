@@ -1,3 +1,4 @@
+</main>
 <!-- Footer -->
 <div class="footer">
     <div class="container-fluid footer__container mt-4">
